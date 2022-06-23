@@ -1,0 +1,122 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+:root{
+    --cor0:#0b1426;
+    --cor1:#03588c;
+    --cor2:#03658c;
+    --cor3:#7eadbf;
+    --cor4:#a9d0d9;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-color: var(--cor1);
+}
+.cabecalho{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: var(--cor0);
+    font-family: 'Poiret One', cursive;
+    font-size: 2em;
+    color: white;
+    
+}
+.conteudo{
+    margin-bottom: 10px;
+    display:flex;
+
+}
+.conteudo-secundario{
+    float:left;
+    width:240px;
+    padding: 10px;
+    margin: auto 10px;
+    background-color: var(--cor3);
+             
+}
+.conteudo-secundario-imagem{
+    display: flex;    
+    margin: auto;
+    margin-bottom: 10px;
+}
+.conteudo-secundario-escrito-titulo{
+    display: flex;
+    justify-content: center; 
+    margin-bottom: 10px; 
+    font-family: 'Share Tech Mono', monospace;  
+}
+.conteudo-secundario-esrito{
+    text-align: justify;
+    margin: 10px;
+}
+.conteudo-secundario-esrito-lista{
+    list-style-position:inside;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    }
+.conteudo-principal{
+    float:ceter;
+    padding: 10px;
+    margin: auto;
+}
+.conteudo-principal-titulo{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    font-family: 'Share Tech Mono', monospace;
+}
+.conteudo-principal-imagem{
+    width: 100%;
+}
+.conteudo-principal-botao{
+    display: flex;
+    margin: auto;
+}
+.conteudo-principal-texto{
+    display: flex;
+    margin: auto;
+    height: 143;
+    margin-bottom: 10px;
+}
+.menu{
+    background-color:var(--cor3);
+    float:right;
+    width: 180px;
+    padding: 10px;
+    margin: auto 10px;
+}
+.menu-titulo{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    text-align: center;
+    font-family: 'Share Tech Mono', monospace;
+}
+.menu-nome{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+.menu-imagem{
+    display: flex;    
+    margin: auto;
+    }
+.menu-link{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+       
+}
+footer{
+    padding: 13px;
+    text-align: center;
+    background-color: rgb(197, 169, 169);
+}

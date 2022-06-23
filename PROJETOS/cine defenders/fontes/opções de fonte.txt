@@ -1,0 +1,12 @@
+fontes 
+
+titulo
+Fascinate
+Righteous
+Poiret One
+
+texto
+Inconsolata
+Space Mono
+Share Tech Mono
+Josefin Slab
